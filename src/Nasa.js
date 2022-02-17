@@ -12,9 +12,7 @@ justify-content: space-between;
 `
 
 const Date = styled.p `
-
     color: red; 
-
 
 `
 
@@ -23,9 +21,15 @@ margin: 0 130px;
 
 `
 
+const Image = styled.img `
+max-width: 100%; 
+
+
+`
+
 const Headline = styled.h2`
   color: black;
-  border-bottom:5px solid red;
+  border-bottom:2px solid red;
 `
 const Headline1 = styled.h1`
     
@@ -33,7 +37,7 @@ const Headline1 = styled.h1`
   border-bottom:2px solid gray;
   width: 100%; 
   color: blue;
-  font-size: 50px; 
+  font-size: 60px; 
 `;
 
 
@@ -48,7 +52,8 @@ const Nasa = props => {
             
             <Headline1>NASA Picture of the Day!</Headline1>
             <Headline> {props.nasaPic.title} </Headline>
-        <img src= {props.nasaPic.url} alt='pic' />
+            
+        <Image src= {props.nasaPic.url} alt='pic' />
         
         <Date> {props.nasaPic.date} </Date>
         <p> {props.nasaPic.explanation} </p>
