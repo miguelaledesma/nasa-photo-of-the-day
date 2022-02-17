@@ -3,8 +3,23 @@ import React from "react";
 import styled from 'styled-components'
 
 const StyledNasa = styled.div `
-width: 50% 
 
+display: flex; 
+flex-direction: column; 
+justify-content: space-between; 
+
+
+`
+
+const Date = styled.p `
+
+    color: red; 
+
+
+`
+
+const Wrapper = styled.div `
+margin: 0 130px; 
 
 `
 
@@ -28,17 +43,18 @@ const Headline1 = styled.h1`
 
 const Nasa = props => {
     return (
+        <Wrapper>
         <StyledNasa className = "nasa-wrapper">
             
             <Headline1>NASA Picture of the Day!</Headline1>
             <Headline> {props.nasaPic.title} </Headline>
         <img src= {props.nasaPic.url} alt='pic' />
         
-        <p> {props.nasaPic.date} </p>
+        <Date> {props.nasaPic.date} </Date>
         <p> {props.nasaPic.explanation} </p>
         <p> {props.nasaPic.copyright} </p>
         </StyledNasa>
-        
+        </Wrapper>
     )
 
 } 
