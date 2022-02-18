@@ -27,12 +27,12 @@ In this project you will build out a application to show the NASA photo of the d
 
 This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm start`
-- [ ] Implement the project on the `main` branch, committing changes regularly.
-- [ ] Push commits: `git push origin main`.
+- [ x] Create a forked copy of this project.
+- [x ] Clone your OWN version of the repository in your terminal
+- [ x] Download project dependencies by running `npm install`
+- [x ] Start up the app using `npm start`
+- [ x] Implement the project on the `main` branch, committing changes regularly.
+- [x ] Push commits: `git push origin main`.
 
 ### Task 2: MVP
 
@@ -75,8 +75,8 @@ Now is the time to build out your other components. Compose your UI, and then pa
 
 #### _MVP Requirements:_
 
-- [ ] Use the effect hook to fetch the APOD data when the component mounts.
-- [ ] Display the APOD data in different components that are composed together to build your UI.
+- [x ] Use the effect hook to fetch the APOD data when the component mounts.
+- [x ] Display the APOD data in different components that are composed together to build your UI.
 
 #### Pro Tips
 

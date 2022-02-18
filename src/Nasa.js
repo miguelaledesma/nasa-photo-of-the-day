@@ -13,12 +13,18 @@ justify-content: space-between;
 
 const Date = styled.p `
     color: red; 
+    background-color: white;
+  width: 100px;
+  border: 2px solid green;
+  padding: 20px;
+  margin: auto; 
+
 
 `
 
 const Wrapper = styled.div `
-margin: 0 130px; 
-
+margin: 0 0px; 
+background-color: #f7cac9; 
 `
 
 const Image = styled.img `
